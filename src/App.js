@@ -2,6 +2,8 @@ import React from 'react';
 import parseRoute from './parse-route';
 import Header from './components/header';
 import Home from './components/home'
+import Coin from './components/coin'
+import Dataverse from './components/dataverse'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -24,7 +26,9 @@ export default class App extends React.Component {
       return (
       <>
       <Header />
+      <Dataverse />
       <Home />
+      <Coin />
       </>
       )
     }
@@ -45,7 +49,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className='bg-gradient-to-l from-[#93ECEE] overflow-x-hidden h-screen'>
+      <div className='bg-gradient-to-l from-[#BCECB5] overflow-x-hidden h-screen'>
         {this.renderPage()}
       </div>
     );
