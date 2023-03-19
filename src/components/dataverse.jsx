@@ -36,12 +36,8 @@ export default function Dataverse() {
             duration: 2.5
           }}
           className="mt-6 text-lg lg:inline"
-        ><span>____________</span> data layer for drug discovery experiments
+        ><hr /> data layer for drug discovery experiments
         </motion.p>
-        <div>
-
-        </div>
-
         <motion.div
           initial={{
             y: -12
