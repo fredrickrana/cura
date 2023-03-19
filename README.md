@@ -1,3 +1,6 @@
+Link to Webpage:
+https://curacoin.vercel.app/
+
 We will use Hyperledger Fabric to build a secure and decentralized database for patient records and data.  This will allow us to build a permissioned blockchain networks through chaincode that will carry the rules and logic of the data stored on chain so that only authorized parties can access and modify the data.
 
 We will design the network architecture, including the number of nodes and the communication channels between them. The nodes will be hosted by different healthcare organizations or stakeholders in the healthcare industry. Once we do this, we will configure the access control policies using chaincode samples from the Hyperledger library to develop identity and access management features.
