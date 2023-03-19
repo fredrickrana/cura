@@ -1,5 +1,6 @@
 Link to Webpage:
 https://curacoin.vercel.app/
+Built with React.js
 
 We will use Hyperledger Fabric to build a secure and decentralized database for patient records and data.  This will allow us to build a permissioned blockchain networks through chaincode that will carry the rules and logic of the data stored on chain so that only authorized parties can access and modify the data.
 
