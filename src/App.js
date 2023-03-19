@@ -31,19 +31,15 @@ export default class App extends React.Component {
       <Coin />
       </>
       )
-    }
-    // if (route.path === 'newproject') {
-    //   return <Project />;
-    // }
-    // if (route.path === 'myprojects') {
-    //   return <MyProjects />;
-    // }
-    // if (route.path === 'projects') {
-    //   const projectId = route.params.get('projectId');
-    //   return <ProjectDetails projectId={projectId} />;
-    // }
-    if (route.path === 'home') {
-      return <Home />;
+    } else {
+      return (
+        <>
+          <Header />
+          <Dataverse />
+          <Home />
+          <Coin />
+        </>
+      )
     }
   }
 
